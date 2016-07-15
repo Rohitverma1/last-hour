@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sol.lasthour.AllYear"
+    android:background="@drawable/bff2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="100dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:id="@+id/button"
+            android:textColor="#F9FFBF"
+            android:textSize="30sp"
+            android:shadowColor="#A8A8A8"
+            android:background="@drawable/sh"
+            android:layout_marginRight="25dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="II"
+            android:id="@+id/button2"
+            android:textColor="#F9FFBF"
+            android:textSize="30sp"
+            android:shadowColor="#A8A8A8"
+            android:background="@drawable/sh"
+            android:layout_marginLeft="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:id="@+id/linearLayout3"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textAlignment="center"
+            android:textColor="#f9ffbf"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Year"
+            android:textAlignment="center"
+            android:textColor="#f9ffbf"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginLeft="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="III"
+            android:id="@+id/button3"
+            android:textColor="#F9FFBF"
+            android:textSize="30sp"
+            android:shadowColor="#A8A8A8"
+            android:background="@drawable/sh"
+            android:layout_marginRight="25dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IV"
+            android:id="@+id/button4"
+            android:textColor="#F9FFBF"
+            android:textSize="30sp"
+            android:shadowColor="#A8A8A8"
+            android:background="@drawable/sh"
+            android:layout_marginLeft="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third Year"
+            android:id="@+id/textView6"
+            android:textAlignment="center"
+            android:textColor="#f9ffbf"
+            android:textSize="25sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fourth Year"
+            android:id="@+id/textView7"
+            android:textAlignment="center"
+            android:textColor="#f9ffbf"
+            android:textSize="25sp"
+            android:layout_marginLeft="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

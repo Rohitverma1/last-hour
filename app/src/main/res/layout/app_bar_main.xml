@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Mainactivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include layout="@layout/content_main" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/b1"
+            android:background="@drawable/syiconf"
+            android:onClick="secAct" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/b2"
+            android:background="@drawable/previcon"
+            android:layout_marginLeft="50dp"
+            android:onClick="secAct" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Syllabus"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:typeface="sans"
+            android:textColorHighlight="#fe2356"
+            android:textAlignment="center"
+            android:textColor="#f81e1e"
+            android:layout_marginLeft="70dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous Years \n Papers"
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:typeface="sans"
+            android:textColorHighlight="#fe2356"
+            android:textAlignment="center"
+            android:textColor="#ed1a1a"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/b3"
+            android:background="@drawable/modelppr2f"
+            android:onClick="secAct" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/b4"
+            android:background="@drawable/likeiconf"
+            android:layout_marginLeft="50dp"
+            android:onClick="rateUs" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solved Sample \nPapers"
+            android:id="@+id/textView4"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="#f60e0e"
+            android:textColorHighlight="#f5ea19"
+            android:textAlignment="center"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate Us"
+            android:id="@+id/textView5"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textColor="#f60e0e"
+            android:textColorHighlight="#f5ea19"
+            android:textAlignment="center"
+            android:layout_marginLeft="18dp" />
+    </LinearLayout>
+</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

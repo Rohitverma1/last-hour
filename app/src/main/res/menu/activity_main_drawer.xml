@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home30"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Category"
+        android:icon="@drawable/ic_menu_camera">
+
+        <menu>
+            <item
+                android:id="@+id/nav_ac"
+
+                android:title="Academic Calender" />
+            <item
+                android:id="@+id/nav_syllabus"
+
+                android:title="Syllabus" />
+            <item
+                android:id="@+id/nav_pyp"
+
+                android:title="Previous Year Papers" />
+            <item
+                android:id="@+id/nav_ssp"
+
+                android:title="Solved Sample Papers" />
+
+        </menu>
+    </item>
+    <item android:title="Tell Your Friends!">
+
+        <menu>
+            <item
+                android:id="@+id/nav_fb"
+
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_twitter"
+
+                android:title="Twitter" />
+            <item
+                android:id="@+id/nav_wa"
+
+                android:title="whatsapp" />
+
+
+        </menu>
+    </item>
+</menu>
